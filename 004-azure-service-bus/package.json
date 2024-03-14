@@ -1,0 +1,16 @@
+{
+  "name": "004-azure-service-bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^4.0.1",
+    "@azure/service-bus": "^7.9.4",
+    "dotenv": "^16.4.5"
+  }
+}
