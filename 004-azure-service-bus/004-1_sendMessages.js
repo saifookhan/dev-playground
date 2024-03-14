@@ -1,8 +1,5 @@
-// import { ServiceBusClient } from "azure/service-bus";
 const { ServiceBusClient } = require("@azure/service-bus");
 require("dotenv").config();
-
-console.log(process.env);
 
 const connectionString = process.env.AZURE_SB_CONNECTION_STRING;
 
